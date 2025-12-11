@@ -36,8 +36,7 @@
   <minorEdit>false</minorEdit>
   <syntaxId>plain/1.0</syntaxId>
   <hidden>true</hidden>
-  <content>xoo.error.noValidLicense=Il n'y a pas de licence valide pour l'application OnlyOffice Connector. Pour en obtenir une, merci de visiter {0}Licenses section{1}.
-xoo.extension.name=Application OnlyOffice Connector
+  <content>xoo.extension.name=Application OnlyOffice Connector
 xoo.creationButtons.prez.label=Nouvelle Présentation
 xoo.creationButtons.sheet.label=Nouvelle Feuille de calcul
 xoo.creationButtons.text.label=Nouveau Document
@@ -62,8 +61,19 @@ xoo.inFrameContent.editConvertibleVersion.title=Ce type de document ({0}) ne peu
 xoo.inFrameContent.editConvertibleVersion.value=Modifier la version
 xoo.inFrameContent.loading=Chargement de OnlyOffice ...
 xoo.inFrameContent.onPage=sur la page
+### Missing: xoo.editor.cancel.confirm=You have unsaved changes. Are you sure you want to continue?
 xoo.validation.attachmentExists=Une pièce jointe portant ce nom ({0}) existe déjà. Veuillez choisir un autre nom.
 xoo.validation.attachmentMissing=Document ou pièce jointe non trouvé !
 xoo.validation.documentMissing=Paramètre de document requis !
-xoo.validation.filenameMissing=Paramètre de nom de fichier requis !</content>
+xoo.validation.filenameMissing=Paramètre de nom de fichier requis !
+### Missing: xoo.config.conversion.officeServerWarning=The XWiki instance is not connected to an Office Server. Please configure the office server properly or use another conversion method.
+### Missing: XWikiOnlyOfficeCode.ConfigurationClass_conversion=Conversion of ODF documents when editing
+### Missing: XWikiOnlyOfficeCode.ConfigurationClass_conversion_force=Convert to a different document
+### Missing: XWikiOnlyOfficeCode.ConfigurationClass_conversion_onlyoffice=(Beta) On the fly using OnlyOffice
+### Missing: XWikiOnlyOfficeCode.ConfigurationClass_conversion_officeServer=(Beta) On the fly using Office Server
+### Missing: XWikiOnlyOfficeCode.ConfigurationClass_serverSecret=Server secret
+### Missing: XWikiOnlyOfficeCode.ConfigurationClass_serverSecret_hint=The secret configured on the OnlyOffice server that will enable XWiki to create JWT tokens.
+### Missing: XWikiOnlyOfficeCode.ConfigurationClass_authorizationHeader=Authorization Header
+### Missing: XWikiOnlyOfficeCode.ConfigurationClass_authorizationHeader_hint=The request header that will contain the authorization token when sending data to OnlyOffice.
+</content>
 </xwikidoc>
