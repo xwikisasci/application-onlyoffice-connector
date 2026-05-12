@@ -465,13 +465,13 @@
       /** Get the content of the modal dialog using ajax */
       createContent : function() {
         var fileType = ['.docx', '.odt'];
-        var buttonType = 'btn-primary btn-ootext';
+        var buttonType = 'btn-default btn-ootext';
         if (type === 'spreadsheet') {
           fileType = ['.xlsx', '.ods'];
-          buttonType = 'btn-success btn-oosheet';
+          buttonType = 'btn-default btn-oosheet';
         } else if (type === 'presentation') {
           fileType = ['.pptx', '.odp'];
-          buttonType = 'btn-warning btn-ooprez';
+          buttonType = 'btn-default btn-ooprez';
         }
         if (forcedConversion) {
           fileType.pop();
@@ -932,28 +932,34 @@ html#ooFrame {
     </property>
     <property>
       <code>.btn-ootext {
-  background-image: linear-gradient(#5a7dc9,#496cb8 50%,#385ba7);
+  background-image: linear-gradient(#718abf,#6a80b0 50%,#44619c);
   border: 1px solid #5477c3;
+  color: #fff;
 }
 .btn-ootext:hover {
-  background-image: linear-gradient(#496cb8,#385ba7 50%,#274a96);
+  background-image: linear-gradient(#5d7fc9,#5269a8 50%,#3c5996);
   border: 1px solid #4366b2;
+  color: #f0eeeb;
 }
 .btn-oosheet {
   background-image: linear-gradient(#8ca946,#7b9835 50%,#6a8724);
   border: 1px solid #86a340;
+  color: #fff;
 }
 .btn-oosheet:hover {
   background-image: linear-gradient(#7b9835,#6a8724 50%,#507613);
   border: 1px solid #759229;
+  color: #f0eeeb;
 }
 .btn-ooprez {
   background-image: linear-gradient(#dd682b,#cc571a 50%,#bb4809);
   border: 1px solid #d56223;
+  color: #fff;
 }
 .btn-ooprez:hover {
   background-image: linear-gradient(#cc571a,#bb4809 50%,#aa3702);
   border: 1px solid #c45015;
+  color: #f0eeeb;
 }
 
 .oobutton {
