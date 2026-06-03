@@ -38,7 +38,7 @@
     <url>https://github.com/xwikisas/application-onlyoffice-connector/issues</url>
   </issueManagement>
   <properties>
-    <licensing.version>1.32.2</licensing.version>
+    <licensing.version>1.32.3</licensing.version>
   </properties>
   <modules>
     <module>application-onlyoffice-connector-websocket</module>
