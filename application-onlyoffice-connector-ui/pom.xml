@@ -25,10 +25,10 @@
   <parent>
     <groupId>com.xwiki.onlyoffice-connector</groupId>
     <artifactId>application-onlyoffice-connector</artifactId>
-    <version>2.6.2-SNAPSHOT</version>
+    <version>2.6.2</version>
   </parent>
   <artifactId>application-onlyoffice-connector-ui</artifactId>
-  <version>2.6.2-SNAPSHOT</version>
+  <version>2.6.2</version>
   <packaging>xar</packaging>
   <name>OnlyOffice Connector - UI</name>
   <description>View, edit and collaborate real-time on text documents, spreadsheets and presentations. Comes with the OnlyOffice server preconfigured for testing. The app can be purchased individually or part of the XWiki Pro package. Try it free.</description>
