@@ -25,7 +25,7 @@
   <parent>
     <groupId>com.xwiki.onlyoffice-connector</groupId>
     <artifactId>application-onlyoffice-connector</artifactId>
-    <version>2.6.2</version>
+    <version>2.6.3-SNAPSHOT</version>
   </parent>
   <properties>
     <!--  To be removed after several releases or once this app depends on a XWiki parent >=
@@ -34,7 +34,7 @@
     <xwiki.extension.features>org.xwiki.contrib:xwiki-contrib-websocket</xwiki.extension.features>
   </properties>
   <artifactId>application-onlyoffice-connector-websocket</artifactId>
-  <version>2.6.2</version>
+  <version>2.6.3-SNAPSHOT</version>
   <packaging>jar</packaging>
   <name>OnlyOffice Connector - Websocket</name>
   <description>Websocket needed by the OnlyOffice Connector.</description>
