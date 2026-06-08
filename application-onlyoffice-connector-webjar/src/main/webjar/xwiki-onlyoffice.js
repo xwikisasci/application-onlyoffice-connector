@@ -99,7 +99,7 @@ define(['jquery', 'xwiki-l10n!xwiki-onlyoffice-wrapper'], function ($, l10n) {
   };
 
   var setFormEnabled = function (isIt) {
-    $('#buttonsForm').attr('disabled', isIt);
+    $('#buttonsForm').prop('disabled', isIt);
   };
 
   var notification = function (type, comment) {
