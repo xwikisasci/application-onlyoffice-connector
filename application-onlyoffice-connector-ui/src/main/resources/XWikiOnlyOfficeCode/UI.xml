@@ -40,11 +40,11 @@
 {{html clean="false"}}
 #if ($request.elem == 'oOCreateButtons')
   &lt;div id="oOCreateButtons"&gt;
-    &lt;input type="button" class="btn btn-primary btn-ootext oONewText"
+    &lt;input type="button" class="btn btn-default btn-ootext oONewText"
       value="$escapetool.xml($services.localization.render('xoo.creationButtons.text.label'))" /&gt;
-    &lt;input type="button" class="btn btn-success btn-oosheet oONewSpreadsheet"
+    &lt;input type="button" class="btn btn-default btn-oosheet oONewSpreadsheet"
       value="$escapetool.xml($services.localization.render('xoo.creationButtons.sheet.label'))" /&gt;
-    &lt;input type="button" class="btn btn-warning btn-ooprez oONewPresentation"
+    &lt;input type="button" class="btn btn-default btn-ooprez oONewPresentation"
       value="$escapetool.xml($services.localization.render('xoo.creationButtons.prez.label'))" /&gt;
   &lt;/div&gt;
 #elseif ($request.elem == 'oOActionButtons')
